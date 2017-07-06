@@ -1,0 +1,8 @@
+default:
+    suites:
+        api:
+            contexts:
+                - ApiContext:
+
+    extensions:
+        Behat\Symfony2Extension: ~

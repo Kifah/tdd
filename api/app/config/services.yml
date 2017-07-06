@@ -28,8 +28,8 @@ services:
         resource: '../../src/AppBundle/Controller'
         public: true
         tags: ['controller.service_arguments']
+    guzzle_client:
+        class: GuzzleHttp\Client
+    calculator_service:
+        class: AppBundle\Services\BonusCalculator
 
-    # add more services, or override services that need manual wiring
-    # AppBundle\Service\ExampleService:
-    #     arguments:
-    #         $someArgument: 'some_value'
