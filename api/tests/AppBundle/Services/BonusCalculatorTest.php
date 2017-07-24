@@ -28,7 +28,7 @@ class BonusCalculatorTest extends TestCase
     /**
      * @test
      */
-    public function SixtyMonthsReturns100()
+    public function sixtyMonthsReturns100()
     {
         $monthsAtWork = 60;
         $bonusCalculator = new BonusCalculator();
