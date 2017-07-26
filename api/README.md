@@ -1,6 +1,7 @@
+# TDD Presentation
+
 [![Build Status](https://travis-ci.org/Kifah/tdd.svg?branch=master)](https://travis-ci.org/Kifah/tdd)
 
-# TDD Presentation
 
 This is a personal small project, that accompanies a presentation I am doing
 in the TDD (Test Driven Development field).
