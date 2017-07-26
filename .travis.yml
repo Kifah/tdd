@@ -10,9 +10,9 @@ before_install:
 script:
   - docker-compose build
   - docker-compose up -d
-  - docker exec php-api  vendor/bin/phpunit tests  --verbose
+  - docker exec php-api  /usr/local/bin/phpunit --verbose
   - docker exec php-api  chmod -R a+rw /var/cache/api/
   - docker exec php-api  chmod -R a+rw /var/log/api/
   - docker exec php-api  chmod -R a+rw /var/cache/api/  /var/log/api/
-  - docker exec php-api  vendor/bin/behat
+  - docker exec php-api  /srv/api/vendor/bin/behat
   - docker-compose kill
