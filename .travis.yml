@@ -16,4 +16,4 @@ script:
 #  - docker exec php-api  chmod -R a+rw /var/log/api/
 #  - docker exec php-api  chmod -R a+rw /var/cache/api/  /var/log/api/
 #  - docker exec php-api  /srv/api/vendor/bin/behat
-#  - docker-compose kill
+  - docker-compose kill
