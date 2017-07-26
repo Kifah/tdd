@@ -6,7 +6,7 @@ namespace AppBundle\Services;
 
 /**
  * Class BonusCalculator
- * A class that calculates the bonus for a company worker, based on how long she is working in the company (in months)
+ * calculates the bonus for a company worker, based on how long she is working in the company (in months)
  * @package AppBundle\Services
  */
 class BonusCalculator
