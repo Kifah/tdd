@@ -1,11 +1,13 @@
 
-# Code samples: "TDD in action"
+# TDD Presentation
 
-This is an example project for the presentation TDD in action, featuring the use of the following technologies and solutions:
-* Docker/docker-compose
-* Symfony 3.3/PHP 7.1
-* use of phpunit to unit test pieces of software (see `api/tests` folder )
-* us of behat to test the API endpoints  (see `api/features`)
+This is a personal small project, that accompanies a presentation I am doing
+in the TDD (Test Driven Development field).
+It is based on:
+* Docker/Docker-Compose
+* PHP 7.1
+* Symfony 3.3
+* phpunit/behat
 
 ### Requirements/Getting started:
 * Docker-machine and docker-compose installed
