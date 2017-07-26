@@ -10,8 +10,9 @@ before_install:
 script:
   - docker-compose build
   - docker-compose up -d
+  - docker exec php-api wget https://phar.phpunit.de/phpunit.phar && chmod +x phpunit.phar && mv phpunit.phar /usr/local/bin/phpunit
   - docker exec php-api  which phpunit
-#  - docker exec php-api  /usr/local/bin/phpunit --verbose
+  - docker exec php-api  /usr/local/bin/phpunit --verbose
 #  - docker exec php-api  chmod -R a+rw /var/cache/api/
 #  - docker exec php-api  chmod -R a+rw /var/log/api/
 #  - docker exec php-api  chmod -R a+rw /var/cache/api/  /var/log/api/
