@@ -8,6 +8,7 @@ It is based on:
 * Symfony 3.3
 * phpunit/behat
 
+
 ### Requirements/Getting started:
 * Docker-machine and docker-compose installed
 * Build the containers using `docker-compose build`
