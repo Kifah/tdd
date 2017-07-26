@@ -4,7 +4,7 @@
 
 
 This is a personal small project, that accompanies a presentation I am doing
-in the TDD (Test Driven Development field).
+in the TDD (http://slides.com/kifah/deck).
 It is based on:
 * Docker/Docker-Compose
 * PHP 7.1
